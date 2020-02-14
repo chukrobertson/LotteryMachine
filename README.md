@@ -40,4 +40,4 @@ Use Data from 1990-2019 to test predictions of 2020 picks
 
 
 
-##### This is a project to help me learn more about data science - NOT A GET RICH QUICK SCHEME
+##### This is a project to help me learn more about data science - *NOT* A GET RICH QUICK SCHEME
