@@ -6,14 +6,21 @@ A data project with Pick3 lottery data from 1990 to present.
 Use Data from 1990-2019 to test predictions of 2020 picks
 
 ## The Path
- - Convert PDFs to csv dataframes
+ - Convert PDFs to csv dataframes 
+  - *done*
+   - _2009> needs PDF formatting before it can be used_
  - Clean all dataframes
- - Set useable column names
- - Remove uneccesary columns/NaNs
+  - *done*
+ - Set useable column names 
+  - *done* Columns = [Draw, Date, Pick3]
+ - Remove uneccesary columns/NaNs 
+  - *done*
  - Convert Date to useable DateString
- - Join all dataframes into one 30 year frame of data.
- - Clean 2020 dataframe for prediction testing
- - *Day_Draw column format needs changed into a useable format*
+  - *done*
+ - Join all dataframes into one 30 year frame of data. 
+  - *2010-2019 for now*
+ - Clean 2020 dataframe for prediction testing 
+  - *done*
  - Create prediction model to train on 30 years' data
   - Test for accuracy
 
@@ -25,6 +32,7 @@ Use Data from 1990-2019 to test predictions of 2020 picks
   - numpy
   - pandas
   - tabula-py
+   - openjdk 11.0.6
   - matplotlib
   - More as I update
 
