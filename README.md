@@ -7,8 +7,7 @@ Use Data from 1990-2019 to test predictions of 2020 picks
 
 ## The Path
  - Convert PDFs to csv dataframes 
-  - *done*
-   - _2009> needs PDF formatting before it can be used_
+  - *done-ish*
  - Clean all dataframes
   - *done*
  - Set useable column names 
@@ -26,6 +25,7 @@ Use Data from 1990-2019 to test predictions of 2020 picks
 
 ## Tools Used:
  - Linux OS (Kubuntu 20.04)
+ - Anaconda
  - Jupyter Notebook
  - VS Code
  - Python3
@@ -34,10 +34,9 @@ Use Data from 1990-2019 to test predictions of 2020 picks
   - tabula-py
    - openjdk 11.0.6
   - matplotlib
+  - sci-kit learn
+  - LibreOffice Draw - for pdf cleaning
   - More as I update
 
-#### I know it's messy, I'll clean it up and rename the notebooks as I update.
-
-
-
-##### This is a project to help me learn more about data science - *NOT* A GET RICH QUICK SCHEME
+I am abandoning this project - I learned a lot about using these tools and applied what I learned here to another small project on
+[Covid-19](https://github.com/chukrobertson/Covid19_Data_Science_Practice)
